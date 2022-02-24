@@ -1,5 +1,9 @@
 import logo from './logo.svg';
 import './App.css';
+import NewStuff from './NewStuff'
+
+import { FaBiking } from "react-icons/fa";
+import {FaSnowboarding } from "react-icons/fa";
 
 function App() {
   return (
@@ -17,6 +21,9 @@ function App() {
         >
           Learn React
         </a>
+        <div><FaBiking/>
+          <FaSnowboarding/></div>
+        <NewStuff/>
       </header>
     </div>
   );
